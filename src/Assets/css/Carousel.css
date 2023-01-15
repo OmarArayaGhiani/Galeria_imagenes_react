@@ -1,0 +1,19 @@
+.carouselCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carouselCard h2 {
+    text-align: center;
+}
+@media (min-width: 1400px){
+    .carouselCard {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 60%;
+    }
+    .carouselCard h2 {
+        text-align: start;
+    }
+}
