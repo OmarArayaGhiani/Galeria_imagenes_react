@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = (props) => {
     return (
         <div className="container text-center mt-5">
